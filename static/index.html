@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://ih1.redbubble.net/image.1784603199.0555/st,small,507x507-pad,600x600,f8f8f8.jpg" class="me-2 logo" height="20"
+                    alt="MDB Logo" loading="lazy" />
+                <h4>SHAMMER COMPANY - UNDER SECRETARY OF DEFEND - DOD APPROVED - PERSONNEL AND READINESS - DD 227</h4>
+            </a>
+        </div>
+    </nav>
+<section class="">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-12 col-xl-10">
+                <div class="card mask-custom mh-100">
+                    <div class="card-body p-4 text-white">
+
+                        <div class="text-center pt-3 pb-2">
+                            <img src="https://ih1.redbubble.net/image.1784603199.0555/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                                alt="Check" width="60">
+                            <h2 class="my-4">Profiles Tracker</h2>
+                        </div>
+                        <!--CREATE-->
+                            <form class="d-flex justify-content-center align-items-center mb-4">
+                                <div class="form-outline flex-fill">
+                                    <input placeholder="Name" name="name" type="text" id="form-name" value="" class="form-control-plaintext input-name" />
+                                </div>
+                                <div class="form-outline flex-fill ms-2">
+                                    <input placeholder="Position" name="position" type="text" id="form-position" class="form-control-plaintext input-position"/>
+                                </div>
+                                <div class="form-outline flex-fill ms-2">
+                                    <input placeholder="Status" name="status" type="text" id="form-status" class="form-control-plaintext input-status"/>
+                                </div>
+                                <button type="submit" class="btn-add btn btn-info ms-2 bg-warning">Add</button>
+                            </form>
+
+                            <!--UPDATE-->
+                            <form class="d-flex justify-content-center align-items-center mb-4">
+                                <div class="form-outline flex-fill">
+                                    <input placeholder="Personnel's ID" name="id" type="text" id="form2" class="update-form form-control-plaintext" />
+                                </div>
+                                <div class="form-outline flex-fill ms-2">
+                                    <input placeholder="Name" name="name" type="text" id="form-name" value=""
+                                        class="form-control-plaintext input-name-update" />
+                                </div>
+                                <div class="form-outline flex-fill ms-2">
+                                    <input placeholder="Position" name="position" type="text" id="form-position"
+                                        class="form-control-plaintext input-position-update" />
+                                </div>
+                                <div class="form-outline flex-fill ms-2">
+                                    <input placeholder="Status" name="status" type="text" id="form-status"
+                                        class="form-control-plaintext input-status-update" />
+                                </div>
+                                <button type="submit" class="btn-update btn btn-info ms-2 bg-warning">Update</button>
+                            </form>
+
+                            <!--DELETE-->
+                            <form class="d-flex justify-content-center align-items-center mb-4">
+                                <div class="form-outline flex-fill">
+                                    <input placeholder="Personnel's ID" name="id" type="text" id="form2" class="remove-form form-control-plaintext" />
+                                </div>
+                                  <button type="submit" class="btn-remove btn btn-info ms-2 bg-warning">Remove</button>
+                              
+                            </form>
+
+
+                        <table class="table text-white mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Team Member</th>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Profiles</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
+<script src="./jquery-3.6.0.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
